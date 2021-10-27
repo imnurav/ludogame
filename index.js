@@ -5,8 +5,8 @@ $(document).ready(function(){
 
         const player1=Math.floor(Math.random()*6)+1
         const player2=Math.floor(Math.random()*6)+1
-        const player1dice='/ludo/dice'+player1+'.png'
-        const player2dice="/ludo/dice"+player2+".png"
+        const player1dice='dice'+player1+'.png'
+        const player2dice="dice"+player2+".png"
         $("#check1").attr("src",player1dice)
         $("#check2").attr("src",player2dice)
         if(player1>player2){
